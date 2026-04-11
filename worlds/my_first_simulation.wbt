@@ -1,0 +1,53 @@
+#VRML_SIM R2025a utf8
+
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2025a/projects/objects/backgrounds/protos/TexturedBackground.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2025a/projects/objects/backgrounds/protos/TexturedBackgroundLight.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2025a/projects/objects/floors/protos/RectangleArena.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2025a/projects/robots/irobot/create/protos/Create.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2025a/projects/appearances/protos/Parquetry.proto"
+
+WorldInfo {
+  basicTimeStep 16
+}
+Viewpoint {
+  orientation 0.33045231535799663 -0.3273505675954365 -0.8852360550550824 4.581424697967839
+  position -0.10698759641026848 -6.903115028927492 6.106112001125872
+}
+TexturedBackground {
+}
+TexturedBackgroundLight {
+}
+RectangleArena {
+  rotation 0 0 1 0.0218166
+  floorSize 5 3
+  floorTileSize 0.25 0.25
+  floorAppearance Parquetry {
+    type "light strip"
+  }
+}
+Create {
+  hidden position_0_0 9.158864524224144e-26
+  hidden position_0_1 5.336748823868085e-26
+  hidden linearVelocity_0 -5.482714289247259e-21 -3.719154481783547e-18 -0.31392000000000003
+  hidden angularVelocity_0 4.2734744116499565e-19 -2.4456725537528458e-17 6.588325475582902e-18
+  hidden linearVelocity_2 1.1901093397112946e-18 1.6971802502854516e-16 -0.31392000000000003
+  hidden angularVelocity_2 4.2734795000197315e-19 -2.4456725537528267e-17 6.5883264981546694e-18
+  hidden linearVelocity_3 -6.00597729141409e-19 -3.754322399739553e-18 -0.31392000000000003
+  hidden angularVelocity_3 4.273470328026541e-19 -2.4456725537528267e-17 6.588325997541902e-18
+  hidden translation_7 0 1.3877787807814457e-17 6.938893903907228e-18
+  hidden rotation_7 0.8442481921910122 -0.3789750862727408 -0.37897608627296847 1.7393139999999998
+  hidden linearVelocity_7 -6.1686855120926e-19 -3.0794783229791955e-18 -0.31392000000000003
+  hidden angularVelocity_7 2.044204407279742e-16 5.820278242717779e-17 -8.982012273380573e-17
+  hidden translation_8 0 -2.7755575615628914e-17 -6.938893903907228e-17
+  hidden rotation_8 -0.30254198673292904 0.6739659704452451 0.6739719704449818 -2.5540289999999994
+  hidden linearVelocity_8 5.215764343146375e-19 -3.0794797572785052e-18 -0.31392000000000003
+  hidden angularVelocity_8 -1.1111235430531522e-16 5.243429841364736e-16 5.3263932805323895e-17
+  translation -0.294149 -0.0827333 0.05246592
+  rotation 0.016873089870290316 -0.9654424437957296 0.2600695802202916 8.106283536158336e-19
+  controller "iRobot_controller"
+  supervisor TRUE
+  bodySlot [
+    GPS {
+    }
+  ]
+}
