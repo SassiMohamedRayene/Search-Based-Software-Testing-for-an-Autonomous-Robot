@@ -10,8 +10,8 @@
 # ============================================================
 
 WEBOTS="/Applications/Webots.app/Contents/MacOS/webots"
-WORLD="/Users/rayene/Documents/my_first_simulation/worlds/my_first_simulation.wbt"
-RESULTS="/Users/rayene/Documents/my_first_simulation/results"
+WORLD="/Users/.../my_first_simulation/worlds/my_first_simulation.wbt"
+RESULTS="/Users/.../my_first_simulation/results"
 N=25
 
 mkdir -p "$RESULTS"
