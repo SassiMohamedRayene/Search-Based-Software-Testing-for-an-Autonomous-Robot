@@ -1,8 +1,8 @@
 # Search-Based Software Testing for an Autonomous Robot — Webots Simulation
 
-> **Research project** | Concordia University  
-> **Author:** Rayene  
-> **Supervisor:** [Your Professor's Name]  
+> **Research project** | Grand Valley State University  
+> **Author:** Rayene Sassi  
+> **Supervisor:** Erik Fredericks 
 > **Tool:** Webots Robot Simulator + Python
 
 ---
