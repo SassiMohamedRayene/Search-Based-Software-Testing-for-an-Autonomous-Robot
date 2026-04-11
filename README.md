@@ -2,7 +2,7 @@
 
 > **Research project** | Grand Valley State University  
 > **Author:** Rayene Sassi  
-> **Supervisor:** Erik Fredericks 
+> **Supervisor:** Erik Fredericks
 > **Tool:** Webots Robot Simulator + Python
 
 ---
