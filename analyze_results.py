@@ -86,10 +86,13 @@ LABELS = ['Baseline\n(no GA, no fuzzer)',
 def boxplot(data_list, title, ylabel, filename, y_limits=None):
     plt.figure(figsize=(10, 5))
     sns.boxplot(data=data_list, palette=["#9E9E9E", "#5C6BC0", "#26A69A", "#EF5350"])
-    plt.title(title)
-    plt.xticks([0, 1, 2, 3], LABELS)
-    plt.xlabel("Treatment")
-    plt.ylabel(ylabel)
+
+    # Increased font sizes here
+    plt.title(title, fontsize=16)
+    plt.xticks([0, 1, 2, 3], LABELS, fontsize=12)
+    plt.yticks(fontsize=12)
+    plt.xlabel("Treatment", fontsize=14)
+    plt.ylabel(ylabel, fontsize=14)
 
     # Applique des limites spécifiques à l'axe Y si elles sont fournies
     if y_limits is not None:
